@@ -1,2 +1,2 @@
 all:
-	g++ -o merge *.cpp -lpthread
+	g++ -o merge -Wall -Wextra -Wpedantic *.cpp  -lpthread
