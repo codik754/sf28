@@ -22,7 +22,7 @@ public:
    Array() : array_(nullptr), n_(0){}
 
    //Конструктор с параметрами
-   Array(size_t n);
+   explicit Array(size_t n);
 
    //Конструктор копирования
    Array(const Array &other);
