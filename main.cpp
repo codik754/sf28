@@ -1,3 +1,4 @@
+//Файл main.cpp
 #include <iostream>
 #include "array.h"
 

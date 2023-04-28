@@ -155,7 +155,7 @@ void Array::mergeSortWith(size_t l, size_t r){
       auto f1 = std::async(std::launch::async, [&](){
          mergeSortWith(l, m);
       });
-      mergeSort(m + 1, r);
+      mergeSortWith(m + 1, r);
       //Ждем завершения
       f1.get();
       //Делаем слияние
